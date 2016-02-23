@@ -1,5 +1,6 @@
 fun main(args: Array<String>) {
-    val_declarations()
+    //val_declarations()
+    ranges()
 }
 
 fun val_declarations(){
@@ -8,4 +9,9 @@ fun val_declarations(){
     val c:Float = 3.4f
     val d:Double = 3.4
     println("$a $b $c $d")
+}
+
+fun ranges(){
+    val a:IntRange = 1..10 //包含10
+    for(i in a) println(i)
 }
